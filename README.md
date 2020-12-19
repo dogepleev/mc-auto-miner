@@ -1,10 +1,21 @@
-# MC Auto Miner
+# MC Auto Miner (for Minecraft Java Edition)
 ## RUS
-Данная программа поможет в автономном копании ресурсов.
-Эта программа является читом. Использовать в персональных целях и на свой страх и риск.
+Данная программа поможет в автономном копании ресурсов, а именно зажмёт нужные кнопки. Вы сможете заняться какими-нибудь мелкими делами перед компьютером, наблюдая за процессом копания.
+**Используйте эту программу на свой страх и риск. Во время работы зажимаются кнопки клавиатуры и мыши. Не используйте эту программу на серверах.**
 ## ENG
-This program helps you mining resources automatically.
-This program is cheat. Only for personal use. Use at one's own risk.
+This program help you in auto mining resources, holding buttons. You can do something in front of computer, seeing at mining process.
+**Use program at own's risk. In working time, some keyboard and mouse buttons are holded. Don't use program on servers.**
+# Установка / Installation
+## RUS
+1. Установите .exe файл из вкладки **Releases**.
+2. Поместите исполняемый файл в какую-нибудь папку.
+3. Запустите файл.
+4. Создастся файл config.json, вы можете посмотреть следующий пункт, чтобы узнать, как его настроить.
+## ENG
+1. Download .exe file from **Releases** tab.
+2. Put executable file in any folder.
+3. Launch file.
+4. File config.json will be created, you can see next paragraph, to know how to configure this.
 # config.json
 ## RUS
 - **"language": "ru"/"en"** - язык программы.
@@ -28,3 +39,18 @@ This program is cheat. Only for personal use. Use at one's own risk.
 - **"pause_key": "`"** - button to pause program.
 - **"unpause_key": "tab"** - button to resume program.
 - **"stop_key": "0"** - button to stop and close program.
+# Использование / Use
+## RUS
+1. Возьмите с собой кирку (или несколько), минимально железного уровня, и еду. Для большей безопасности можно взять блоки, вёдра воды и зелья огнестойкости.
+2. Опуститесь на высоту y=11-12
+3. В главную руку возьмите кирку, а во вторую - еду.
+4. Нажмите на клавишу старта, чтобы начать.
+5. Используйте клавиши паузы и вообновления, если вам нужно взять управление на себя.
+6. Используйте клавишу стоп, чтобы остановить работу и закрыть программу.
+## ENG
+1. Take pickaxe(s), iron level minimum, food. For safety, also take blocks, water buckets, fire resistance potions.
+2. Go at level y=11-12
+3. In the main hand take pickaxe, in the second - food.
+4. Press start key and program start working.
+5. Use pause and unpause key, if you need to take controls to self.
+6. Press stop key to stop script and close program.
