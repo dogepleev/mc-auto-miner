@@ -84,6 +84,7 @@ class System:
 config = Config()
 system = System()
 string = languages.Localization(config.language)
+paused = False
 
 def press():
     """Press button to start/unpause mining"""
@@ -125,10 +126,12 @@ press()
 while True:
     system.freeze()
     system.show_notification()
-    if keyboard.is_pressed(config.pause_key):
+    if keyboard.is_pressed(config.pause_key) and not paused:
+        paused = True
         system.create_notification(string.paused + string.translate_key(config.unpause_key))
         release()
-    elif keyboard.is_pressed(config.unpause_key):
+    elif keyboard.is_pressed(config.unpause_key) and paused:
+        paused = False
         system.create_notification(string.unpaused)
         press()
     if keyboard.is_pressed(config.stop_key):

@@ -3,7 +3,7 @@ import locale
 VERSION = '1.0.0'
 NAME = 'MC AutoMiner'
 CREATOR = 'DogePleev'
-GITHUB = 'PENDING'
+GITHUB = 'https://github.com/dogepleev/mc-auto-miner'
 CONFIG_PATH = 'config.json'
 DEFAULT_CONFIG = {
                 'language':locale.getdefaultlocale()[0][0:2],
