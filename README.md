@@ -7,15 +7,15 @@ This program help you in auto mining resources, holding buttons. You can do some
 **Use program at own's risk. In working time, some keyboard and mouse buttons are holded. Don't use program on servers.**
 # Установка / Installation
 ## RUS
-1. Установите .exe файл из вкладки **Releases**.
-2. Поместите исполняемый файл в какую-нибудь папку.
-3. Запустите файл.
-4. Создастся файл config.json, вы можете посмотреть следующий пункт, чтобы узнать, как его настроить.
+1. Установите .zip архив из вкладки **Releases**.
+2. Поместите всё содержимое архива в какую-нибудь папку.
+3. Запустите исполняемый файл.
+4. Создастся и откроется файл config.json, вы можете посмотреть следующий пункт, чтобы узнать, как его настроить.
 ## ENG
-1. Download .exe file from **Releases** tab.
-2. Put executable file in any folder.
-3. Launch file.
-4. File config.json will be created, you can see next paragraph, to know how to configure this.
+1. Download .zip archive from **Releases** tab.
+2. Put all files from archive in any folder.
+3. Launch executable file.
+4. File config.json will be created and opened, you can see next paragraph, to know how to configure this.
 # config.json
 ## RUS
 - **"language": "ru"/"en"** - язык программы.
